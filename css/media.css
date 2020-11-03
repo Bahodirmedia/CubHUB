@@ -1,0 +1,626 @@
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1199.98px) {
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px 0;
+    align-items: center;
+  }
+  
+  .header__fixed{
+    padding: 10px 50px 10px;
+  }
+  
+  .best {
+    background-color: #ffc61a;
+    padding: 100px 0;
+  }
+
+  .best__subtitle {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .best__title {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+
+  .best__text {
+    margin-bottom: 30px;
+  }
+
+  .form__title {
+    font-size: 30px;
+    padding: 20px 0 20px 20px;
+  }
+
+  .form__inputs {
+    padding: 20px 20px 0 20px;
+  }
+
+  .form__input {
+    width: 48%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .form__footer {
+    padding: 0 20px 20px 20px;
+  }
+
+  .form__select {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid #e4e4e4;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .card__img {
+    width: 90%;
+  }
+
+  .tariff__card {
+    padding: 80px 32px 25px;
+  }
+
+  .card__title {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .card__text {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .card__price {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+
+  .header__top {
+    padding: 33px 61px 0;
+  }
+  
+  .header__fixed{
+    position: fixed;
+    background-color: #040707;
+    padding: 10px 61px 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .header__logo {
+    margin-bottom: 20px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+  
+.header__menu.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #040707;
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    z-index: 90;
+  }
+  
+  .header__link{
+    max-width: 80%;
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .best__left {
+    max-width: 48%;
+  }
+
+  .best__right {
+    max-width: 48%;
+  }
+
+  .best {
+    background-color: #ffc61a;
+    padding: 90px 0 50px 0;
+  }
+
+  .best__subtitle {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .best__title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .best__text {
+    margin-bottom: 25px;
+  }
+
+  .best__form {
+    max-width: 100%;
+  }
+
+  .form__inputs {
+    padding: 20px 20px 0 20px;
+  }
+
+  .form__input {
+    width: 48%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .tariff {
+    padding: 30px 0 50px;
+  }
+
+  .tariff__title,
+  .wish__title,
+  .download__title,
+  .clients__title {
+    font-size: 25px;
+  }
+
+  .tariff__subtitle,
+  .wish__subtitle,
+  .download__subtitle,
+  .clients__subtitle {
+    font-size: 30px;
+  }
+
+  .tariff__subtitle {
+    margin-bottom: 85px;
+  }
+
+  .tariff__card {
+    padding: 70px 20px 20px;
+  }
+
+  .card__img {
+    top: -60px;
+  }
+
+  .card__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .card__text {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .card__price {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+
+  .wish__subtitle {
+    margin-bottom: 50px;
+  }
+
+  .wish__item {
+    margin-bottom: 50px;
+  }
+
+  .wish__circle {
+    width: 61px;
+    height: 61px;
+    margin-right: 20px;
+  }
+
+  .wish__circle .fa {
+    font-size: 20px;
+  }
+
+  .wish__headline {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .wish__text {
+    font-size: 16px;
+  }
+
+  .download {
+    padding: 59px 0 59px;
+  }
+
+  .download__subtitle {
+    margin-bottom: 40px;
+  }
+
+  .download__headline {
+    font-size: 20px;
+  }
+
+  .download__text {
+    font-size: 16px;
+  }
+
+  .download__btn {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .download__hand {
+    height: 60%;
+  }
+
+  .clients {
+    padding: 70px 0;
+  }
+
+  .clients__subtitle {
+    margin-bottom: 30px;
+  }
+
+  .clients__review {
+    padding: 25px;
+    background-color: #040707;
+    border-radius: 34px;
+    max-width: 45%;
+    position: relative;
+  }
+
+  .number {
+    padding: 50px 20px;
+  }
+
+  .number__title {
+    font-size: 25px;
+  }
+
+  .number__tel {
+    font-size: 60px;
+  }
+
+  .footer {
+    padding: 50px 0 0 0;
+  }
+
+  .footer__title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .footer__title::after {
+    height: 5px;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .footer__text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .app__download li .fa {
+    font-size: 20px;
+  }
+
+  .contact__list li .fa {
+    font-size: 16px;
+  }
+
+  .contact__list li,
+  .contact__list li a {
+    font-size: 16px;
+  }
+
+  .footer__copy {
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .header {
+    height: 680px;
+  }
+
+  .logo {
+    font-size: 30.36px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .logo__text {
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-weight: 900;
+  }
+
+  .header__site {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+
+  .header__car {
+    width: 500px;
+  }
+
+  .header__menu li {
+    margin-bottom: 20px;
+  }
+
+  .header__phone {
+    font-size: 52px;
+  }
+
+  .best {
+    padding-top: 50px;
+  }
+
+  .best__left {
+    min-width: 100%;
+  }
+
+  .best__right {
+    min-width: 100%;
+  }
+
+  .best__row {
+    flex-wrap: wrap;
+  }
+
+  .best__btn {
+    margin-bottom: 20px;
+  }
+
+  .best__form {
+    max-width: 100%;
+  }
+
+  .tariff__row {
+    flex-wrap: wrap;
+  }
+
+  .tariff__card {
+    max-width: 48%;
+    margin-bottom: 90px;
+  }
+
+  .card__img {
+    top: -70px;
+  }
+
+  .tariff__card:last-child {
+    margin: 0 auto;
+  }
+
+  .download {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .download__headline {
+    font-size: 26px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .download__text {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .download__btn {
+    display: inline-block;
+  }
+
+  .download__hand {
+    display: none;
+  }
+
+  .review__text {
+    font-size: 16px;
+  }
+
+  .review__title {
+    margin-left: 15px;
+  }
+
+  .review__name {
+    font-size: 20px;
+  }
+
+  .review__job {
+    font-size: 16px;
+  }
+
+  .number__title {
+    font-size: 20px;
+  }
+
+  .number__tel {
+    font-size: 50px;
+  }
+
+
+  .footer__row {
+    flex-wrap: wrap;
+  }
+
+  .footer__about {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .footer__download,
+  .footer__contact {
+    max-width: 46%;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .header {
+    height: 470px;
+  }
+
+  .header__top {
+    padding: 23px 21px 0;
+  }
+  
+  .header__fixed{
+    position: fixed;
+    background-color: #040707;
+    padding: 10px 21px 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .header__book {
+    font-size: 20px;
+    margin: 20px auto 10px;
+  }
+
+
+  .header__phone {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .header__site {
+    font-size: 16px;
+  }
+
+  .header__car {
+    width: 350px;
+    margin: -30px auto 0;
+  }
+
+  .best {
+    padding-top: 40px;
+  }
+
+  .best__subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .best__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .best__text {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .form__title {
+    font-size: 20px;
+  }
+
+  .form__input,
+  .form__select {
+    font-size: 16px;
+  }
+
+  .best__btn {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .card__img {
+    top: -60px;
+    width: 80%;
+  }
+
+  .tariff__card {
+    padding: 25% 15px 15px;
+    max-width: 100%;
+  }
+
+  .wish__item {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .clients__row {
+    flex-wrap: wrap;
+  }
+
+  .clients__review {
+    max-width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .clients__triangle--one {
+    width: 0;
+    height: 0;
+    border-top: 28px solid #040707;
+    border-left: 28px solid transparent;
+    border-right: none;
+    left: 104px;
+    bottom: -28px;
+  }
+
+  .number__title {
+    font-size: 26px;
+  }
+
+  .number__tel {
+    font-size: 36px;
+  }
+
+  .footer__download,
+  .footer__contact {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+
+
+  .footer__copy {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 399.98px) {
+  .header {
+    height: 440px;
+  }
+
+  .header__car {
+    width: 280px;
+    margin: -30px auto 0;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+}
