@@ -15,14 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	const toTop = document.querySelector('.totop');
 	const headerHeight = document.querySelector('.header__top').offsetHeight;
 	let prevScroll = window.pageYOffset;
-
 	// Hiding navigation into burger in mobile devices
 	burger.addEventListener('click', () => {
 		burger.classList.toggle('active');
 		headerMenu.classList.toggle('active');
 	});
-
-
 	// dynamically creating header links by counting sections
 	let createMenu = () => {
 		for (let element of sections) {
@@ -47,9 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
 			headerNav.style.top = "0";
 			toTop.style.display = 'none';
 		} else {
+		if (burger.classList.contains('active')) {
+			headerNav.classList.add('header__fixed');
+			headerNav.style.top = "0";
+		} else{
 			headerNav.classList.remove('header__fixed');
 			headerNav.style.top = "-200px";
 			toTop.style.display = 'inline-flex';
+		}
 		}
 		prevScroll = currentScroll;
 
