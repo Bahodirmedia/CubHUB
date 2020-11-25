@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		// Changing active class on links
 		headerLink = headerMenu.querySelectorAll('.header__link');
 		let index = sections.length;
-		
+
 		// while loop is taken from stackoverflow.com forum.
 		while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
 
@@ -69,8 +69,35 @@ document.addEventListener('DOMContentLoaded', () => {
 	//On click scroll to top of page
 	toTop.addEventListener('click', () => {
 		document.documentElement.scrollTop = 0;
-	});	
+	});
 })
 
+let form = document.querySelector('form');
+let input = document.querySelectorAll('.form__input');
+let select = document.querySelector('.form__select');
 
+form.addEventListener('submit', function (e) {
+	for (var i = 0; i < input.length; i++) {
+		if (input[i].value == '') {
+			input[i].classList.add('error');
+			e.preventDefault();
+		}
+		if (select.value == "choose") {
+			select.classList.add('error');
+		}
+	}
+})
 
+for (var i = 0; i < input.length; i++) {
+	input[i].addEventListener('input', function () {
+		this.classList.remove('error');
+	})
+}
+
+select.addEventListener('input', function () {
+	if (select.value == "choose") {
+		select.classList.add('error');
+	} else {
+		select.classList.remove('error');
+	}
+})
